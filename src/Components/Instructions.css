@@ -1,0 +1,11 @@
+ 
+.instructions {
+  text-align: left;
+  color: rgba(200,200,200,0.7);
+  font-size: 0.75em; 
+  align-self: flex-start;
+}
+
+.instructions p{
+  line-height: 0.3em;
+}
