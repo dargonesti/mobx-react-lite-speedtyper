@@ -29,9 +29,11 @@ const FontPicker = observer(() => {
                 console.log(e.target.value)
                 let t1 = store;
                 store.changeFont(e.target.value);
-            }}>
+            }}
+            value={store.font}>
                 {fontList.map((font) =>
-                    <option value={font} key={font}>{font}</option>)}
+                    <option key={font}
+                     style={{fontFamily:font}} value={font} >{font}</option>)}
             </select>
         );
     })
