@@ -8,8 +8,9 @@ const storeContext = React.createContext();
 function createGameStore() {
 
     return {
-        font: "Special Elite",
+        font: localStorage.getItem("mobX-font") || "Special Elite",
         changeFont(newFont) {
+            localStorage.setItem("mobX-font", newFont) 
             this.font = newFont
         }
         ,...createQuotesStore()
