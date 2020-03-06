@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b9feb901.chunk.css",
-    "main.js": "/static/js/main.ab9ec674.chunk.js",
-    "main.js.map": "/static/js/main.ab9ec674.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1e218c5f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1e218c5f.js.map",
-    "static/js/2.d1db2c2a.chunk.js": "/static/js/2.d1db2c2a.chunk.js",
-    "static/js/2.d1db2c2a.chunk.js.map": "/static/js/2.d1db2c2a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.fdfebc5df32e68632e9200d4b690042a.js": "/precache-manifest.fdfebc5df32e68632e9200d4b690042a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.b9feb901.chunk.css.map": "/static/css/main.b9feb901.chunk.css.map",
-    "static/js/2.d1db2c2a.chunk.js.LICENSE.txt": "/static/js/2.d1db2c2a.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/mobx-react-lite-speedtyper/static/css/main.b9feb901.chunk.css",
+    "main.js": "/mobx-react-lite-speedtyper/static/js/main.b800e98c.chunk.js",
+    "main.js.map": "/mobx-react-lite-speedtyper/static/js/main.b800e98c.chunk.js.map",
+    "runtime-main.js": "/mobx-react-lite-speedtyper/static/js/runtime-main.10d7bda4.js",
+    "runtime-main.js.map": "/mobx-react-lite-speedtyper/static/js/runtime-main.10d7bda4.js.map",
+    "static/js/2.9330cc8a.chunk.js": "/mobx-react-lite-speedtyper/static/js/2.9330cc8a.chunk.js",
+    "static/js/2.9330cc8a.chunk.js.map": "/mobx-react-lite-speedtyper/static/js/2.9330cc8a.chunk.js.map",
+    "index.html": "/mobx-react-lite-speedtyper/index.html",
+    "precache-manifest.2b9197907b389d69e6f2b78c5e4294ff.js": "/mobx-react-lite-speedtyper/precache-manifest.2b9197907b389d69e6f2b78c5e4294ff.js",
+    "service-worker.js": "/mobx-react-lite-speedtyper/service-worker.js",
+    "static/css/main.b9feb901.chunk.css.map": "/mobx-react-lite-speedtyper/static/css/main.b9feb901.chunk.css.map",
+    "static/js/2.9330cc8a.chunk.js.LICENSE.txt": "/mobx-react-lite-speedtyper/static/js/2.9330cc8a.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/mobx-react-lite-speedtyper/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e218c5f.js",
-    "static/js/2.d1db2c2a.chunk.js",
+    "static/js/runtime-main.10d7bda4.js",
+    "static/js/2.9330cc8a.chunk.js",
     "static/css/main.b9feb901.chunk.css",
-    "static/js/main.ab9ec674.chunk.js"
+    "static/js/main.b800e98c.chunk.js"
   ]
 }
