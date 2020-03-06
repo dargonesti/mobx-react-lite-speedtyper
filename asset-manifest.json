@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mobx-react-lite-speedtyper/static/css/main.b9feb901.chunk.css",
-    "main.js": "/mobx-react-lite-speedtyper/static/js/main.b800e98c.chunk.js",
-    "main.js.map": "/mobx-react-lite-speedtyper/static/js/main.b800e98c.chunk.js.map",
+    "main.js": "/mobx-react-lite-speedtyper/static/js/main.181874ce.chunk.js",
+    "main.js.map": "/mobx-react-lite-speedtyper/static/js/main.181874ce.chunk.js.map",
     "runtime-main.js": "/mobx-react-lite-speedtyper/static/js/runtime-main.10d7bda4.js",
     "runtime-main.js.map": "/mobx-react-lite-speedtyper/static/js/runtime-main.10d7bda4.js.map",
     "static/js/2.9330cc8a.chunk.js": "/mobx-react-lite-speedtyper/static/js/2.9330cc8a.chunk.js",
     "static/js/2.9330cc8a.chunk.js.map": "/mobx-react-lite-speedtyper/static/js/2.9330cc8a.chunk.js.map",
     "index.html": "/mobx-react-lite-speedtyper/index.html",
-    "precache-manifest.2b9197907b389d69e6f2b78c5e4294ff.js": "/mobx-react-lite-speedtyper/precache-manifest.2b9197907b389d69e6f2b78c5e4294ff.js",
+    "precache-manifest.d6dfc09a51ec4040e6b9582389011942.js": "/mobx-react-lite-speedtyper/precache-manifest.d6dfc09a51ec4040e6b9582389011942.js",
     "service-worker.js": "/mobx-react-lite-speedtyper/service-worker.js",
     "static/css/main.b9feb901.chunk.css.map": "/mobx-react-lite-speedtyper/static/css/main.b9feb901.chunk.css.map",
     "static/js/2.9330cc8a.chunk.js.LICENSE.txt": "/mobx-react-lite-speedtyper/static/js/2.9330cc8a.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.10d7bda4.js",
     "static/js/2.9330cc8a.chunk.js",
     "static/css/main.b9feb901.chunk.css",
-    "static/js/main.b800e98c.chunk.js"
+    "static/js/main.181874ce.chunk.js"
   ]
 }
