@@ -72,20 +72,44 @@ for (let i = 0; i < 10; i++) {
 
 export const createQuotesStore = () => ({
   currentQuoteInd: 0,
-  getCurrentQuote: () => quotesJson[this.currentQuoteInd],
-  getRandomQuote: () => {
+  getCurrentQuote() { return quotesJson[this.currentQuoteInd] || "[Pick a new quote]" },
+  getCurrentText() {
+    if(quotesJson[this.currentQuoteInd])
+    return quotesJson[this.currentQuoteInd].Quote;
+    else
+    return "[Pick a new quote]" 
+  },
+  getRandomQuote() {
     let randTarget = Math.random() * sommePop;
     let indexNewQuote = Math.abs(
       binarySearch(quotesJson, randTarget,
         (target, quote) => target - quote.sommePop))
     //console.log("Target pop : " , randTarget)
 
-    console.log(indexNewQuote, " : ", quotesJson[indexNewQuote]);
+    console.log(indexNewQuote, quotesJson[indexNewQuote]);
 
     this.currentQuoteInd = indexNewQuote
 
     return quotesJson[indexNewQuote]
-  }
+  },
+
+  startNew() {
+    this.finalWPM = 0
+    this.touchesTimes = []
+    this.raceStartTime = null
+    this.playingState = "countdownStart"
+    console.log("start new")
+    return this.getRandomQuote()
+  },
+
+  tryAgain() {
+    this.finalWPM = 0
+    this.touchesTimes = []
+    this.raceStartTime = null
+    this.playingState = "countdownStart"
+    console.log("try again")
+  },
+
 })
 
 export const quoteContext = createContext();
@@ -115,21 +139,6 @@ export const QuoteProvider = ({ children }) => {
       return quotesJson[indexNewQuote]
     },
 
-    startNew: () => {
-      this.finalWPM = 0
-      this.touchesTimes = []
-      this.raceStartTime = null
-      this.playingState = "countdownStart"
-      return this.getRandomQuote()
-    },
-
-    tryAgain: () => {
-      this.finalWPM = 0
-      this.touchesTimes = []
-      this.raceStartTime = null
-      this.playingState = "countdownStart"
-    },
-
     changedTexte: (newText) => {
 
       this.currentText = newText
@@ -148,4 +157,4 @@ export const QuoteProvider = ({ children }) => {
   );
 };
 
-export default { quoteContext, QuoteProvider };
+export default { quoteContext, QuoteProvider, createQuotesStore };

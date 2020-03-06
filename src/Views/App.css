@@ -1,7 +1,14 @@
+body {
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  margin:auto;
+  padding:0;
+}
 
 #root{
-  width:calc( 100vh - 5px );
-  margin:0;
+  width:calc( 100% - 5px );
+  margin:auto;
   padding:0;
 }
 
@@ -54,8 +61,10 @@
 
 
 .typerHeader {
-  position: absolute;
-  top:0;
+  /*position: absolute;
+  top:0;*/
+  margin-top: -20px;
+  margin-bottom: 0.5em;
   font-size: 1.3em;
   font-weight: bold;
 }
