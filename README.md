@@ -1,8 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Hosted with GitHub pages
+see at https://dargonesti.github.io/mobx-react-lite-speedtyper/
+
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run :
 
 ### `yarn start`
 
@@ -26,6 +29,12 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn deploy`
+
+Builds the app for production to the `build` folder.<br />
+Updates a "hosted" branch to deploy on GitHub pages. <br />
+See at url : https://dargonesti.github.io/mobx-react-lite-speedtyper/
 
 ### `yarn eject`
 
@@ -61,7 +70,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+With GitHub pages.
 
 ### `yarn build` fails to minify
 

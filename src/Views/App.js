@@ -40,9 +40,11 @@ const GlobalControlls = observer(({ children }) => {
           }
           if (e.key == "k") {
             console.log("Get new quote")
+            store.startNew();
           }
           if (e.key == "m") {
             console.log("Retry quote")
+            store.tryAgain();
           }
         }
       }}>
@@ -75,8 +77,8 @@ const App = () => {
           </div>
 
           <FontPicker />
-          
-          <Instructions />
+
+          <Controls />          
 
           <Timer />
 
@@ -85,6 +87,9 @@ const App = () => {
           <Typer />
 
           <Controls />
+          
+          <Instructions />
+
         </GlobalControlls>
       </WithTheme>
     </StoreProvider >
